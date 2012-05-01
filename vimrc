@@ -21,8 +21,31 @@ set number
 
 " 4 space softabs default
 set expandtab
-set ts=4
-set sw=4
+set ts=2
+set sw=2
+set backspace=indent,eol,start
+set list
+set listchars=tab:\ \ ,trail:·,nbsp:_,extends:>,precedes:<
 
-" \+n toggles the nerdtree
+let mapleader = " "
 map <leader>n :NERDTreeToggle<CR>
+map <Leader>a= :Tabularize /=<CR>
+map <Leader>a: :Tabularize /:<CR>
+map <Leader><LEFT> <C-w>h
+map <Leader><DOWN> <C-w>j
+map <Leader><UP> <C-w>k
+map <Leader><RIGHT> <C-w>l
+
+" Searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+set laststatus=2
+
+" Open NERDTree if no file specified
+autocmd vimenter * if !argc() | NERDTree | endif
+
+" Powerline
+let g:Powerline_symbols = 'compatible'
