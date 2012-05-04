@@ -30,6 +30,9 @@ set listchars=tab:\ \ ,trail:·,nbsp:_,extends:>,precedes:<
 let mapleader = " "
 map <Leader>n :NERDTreeToggle<CR>
 map <Leader><Leader> :ZoomWin<CR>
+
+" Remove trailing spaces
+map <Leader>d$ :%s/\s\+$//ge<CR>
 map <Leader>a= :Tabularize /=<CR>
 map <Leader>a: :Tabularize /:<CR>
 map <Leader><LEFT> <C-w>h
