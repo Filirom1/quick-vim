@@ -28,7 +28,8 @@ set list
 set listchars=tab:\ \ ,trail:·,nbsp:_,extends:>,precedes:<
 
 let mapleader = " "
-map <leader>n :NERDTreeToggle<CR>
+map <Leader>n :NERDTreeToggle<CR>
+map <Leader><Leader> :ZoomWin<CR>
 map <Leader>a= :Tabularize /=<CR>
 map <Leader>a: :Tabularize /:<CR>
 map <Leader><LEFT> <C-w>h
