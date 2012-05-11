@@ -28,3 +28,4 @@ https://github.com/kien/ctrlp.vim.git
 https://github.com/jeetsukumaran/vim-buffergator.git
 https://github.com/edsono/vim-matchit.git
 https://github.com/scrooloose/nerdcommenter.git
+https://github.com/leshill/vim-json.git
