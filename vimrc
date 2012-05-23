@@ -53,3 +53,6 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 " Powerline
 let g:Powerline_symbols = 'compatible'
+
+" Remove the top toolbar
+set guioptions-=T
