@@ -56,3 +56,6 @@ let g:Powerline_symbols = 'compatible'
 
 " Remove the top toolbar
 set guioptions-=T
+
+" Show a popup whith right click
+set mousemodel=popup
