@@ -28,7 +28,11 @@ set list
 set listchars=tab:\ \ ,trail:·,nbsp:_,extends:>,precedes:<
 
 let mapleader = " "
-map <leader>n :NERDTreeToggle<CR>
+map <Leader>n :NERDTreeToggle<CR>
+map <Leader><Leader> :ZoomWin<CR>
+
+" Remove trailing spaces
+map <Leader>d$ :%s/\s\+$//ge<CR>
 map <Leader>a= :Tabularize /=<CR>
 map <Leader>a: :Tabularize /:<CR>
 map <Leader><LEFT> <C-w>h
@@ -49,6 +53,12 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 " Powerline
 let g:Powerline_symbols = 'compatible'
+
+" Remove the top toolbar
+set guioptions-=T
+
+" Show a popup whith right click
+set mousemodel=popup
 
 " Miscellaneous
 " =============
