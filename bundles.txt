@@ -31,4 +31,4 @@ https://github.com/scrooloose/nerdcommenter.git
 https://github.com/sjl/clam.vim.git
 https://github.com/mileszs/ack.vim.git
 https://github.com/leshill/vim-json.git
-https://github.com/vim-scripts/vim-stylus.git
+https://github.com/wavded/vim-stylus.git
