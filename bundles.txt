@@ -28,6 +28,7 @@ https://github.com/kien/ctrlp.vim.git
 https://github.com/jeetsukumaran/vim-buffergator.git
 https://github.com/edsono/vim-matchit.git
 https://github.com/scrooloose/nerdcommenter.git
-git://github.com/sjl/clam.vim.git
-git://github.com/mileszs/ack.vim.git
+https://github.com/sjl/clam.vim.git
+https://github.com/mileszs/ack.vim.git
 https://github.com/leshill/vim-json.git
+https://github.com/vim-scripts/vim-stylus.git
