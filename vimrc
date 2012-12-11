@@ -24,8 +24,6 @@ set expandtab
 set ts=2
 set sw=2
 set backspace=indent,eol,start
-set list
-set listchars=tab:\ \ ,trail:·,nbsp:_,extends:>,precedes:<
 
 let mapleader = " "
 map <Leader>n :NERDTreeToggle<CR>
@@ -76,6 +74,4 @@ endfunction
 " call this shebang check on every bufread or newfile
 autocmd! BufRead,BufNewFile * call s:NodeAndTheBang()
 
-" remove any trailing whitespace on file save. Yup, I don't like whitespace,
-" with these line, I can stop worrying about them.
-au BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
+let g:NERDTreeDirArrows=0
