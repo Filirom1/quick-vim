@@ -75,3 +75,5 @@ endfunction
 autocmd! BufRead,BufNewFile * call s:NodeAndTheBang()
 
 let g:NERDTreeDirArrows=0
+
+set clipboard=unnamed
